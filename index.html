@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>zadanie domowe</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <form action="" method="POST">
+    <label for="name">Imie</label>
+    <input type="text" id="name" name="name" required>
+
+    <br>
+    <label for="surname">Nazwisko</label>
+    <input type="text" id="surname" name="surname" required>
+
+    <br>
+    <label for="Email">Email</label>
+    <input type="Email" id="Email" name="Email" placeholder="wpisz swoj adres email">
+
+    <br>
+    <label for="phone">Telefon</label>
+    <input type="tel" id="phone" name="phone" placeholder="wpisz swoj nr telefonu">
+
+    <br>
+    <label for="city">Wybor miasta</label>
+    <select name="city" id="city">
+      <option value="Krakow">Krakow</option>
+      <option value="Poznan">Poznan</option>
+      <option value="Warszawa">Warszawa</option>
+    </select>
+
+    <br>
+    <p>wybierz plec</p>
+    <label for="male">Mezczyzna</label>
+    <input type="radio" name="gender" value="male" id="male">
+    <br>
+    <label for="female">Kobieta</label>
+    <input type="radio" name="gender" value="female" id="female">
+    <br>
+
+    <br>
+    <label for="message">Wiadomosc</label>
+    <textarea name="message" id="message" placeholder="maksymalnie 100 znakow"></textarea>
+    <br>
+    <input type="checkbox" id="agreement" name="agreement">
+    <label for="agreement">Wyrazam zgode na przetwarzanie danych</label>
+    <br>
+    <input type="submit" value="send">
+
+  </form>
+
+</body>
+
+</html>
